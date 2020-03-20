@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import styled from "styled-components";
 import { color, font } from '../themes/utilities';
-import { getAppId } from '../redux/actions/authActions';
+import { getAppId } from '../redux/actions/authHandlers';
 
 const Input = styled.input`
 color: ${color.prime};
